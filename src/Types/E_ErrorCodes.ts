@@ -1,0 +1,8 @@
+enum E_ErrorCodes {
+    USER_HASNT_PROVIDED_CONSENT = 9035,
+    PHONE_OR_AND_PASSCODE_INVALID = 9001,
+    ACCESS_CODE_EXPIRED = 9039,
+    UNSUPPORTED_DEVICE = 2007,
+}
+
+export default E_ErrorCodes;
