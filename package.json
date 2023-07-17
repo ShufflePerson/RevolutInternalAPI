@@ -1,0 +1,33 @@
+{
+  "name": "revolutcardapi",
+  "version": "1.0.0",
+  "description": "A UnOfficial Revolut API Wrapper which allows you to manage (get, create, delete, freeze, etc) your Revolut Credit Cards",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npm run format && npm run lint && tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "ShufflePerson",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "prettier": "^2.8.8",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "aes-ecb": "^1.3.15",
+    "axios": "^1.4.0"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "@shuffleperson/revolutapi"
+  }
+}
